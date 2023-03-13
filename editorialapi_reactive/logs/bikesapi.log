@@ -1,0 +1,330 @@
+2023-03-13 06:40:26,387 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-03-13 06:40:26,439 INFO org.springframework.boot.StartupInfoLogger [main] Starting BikesapiApplication using Java 15.0.2 on DESKTOP-IV9SFPO with PID 30420 (C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive\target\classes started by Carlos in C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive)
+2023-03-13 06:40:26,441 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-03-13 06:40:27,471 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 06:40:27,476 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 06:40:27,547 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.BikeRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 06:40:27,551 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.EditorialRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 06:40:27,555 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.MangaRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 06:40:27,559 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.RouteRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 06:40:27,563 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 06:40:27,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 0 JPA repository interfaces.
+2023-03-13 06:40:27,599 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 06:40:27,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-03-13 06:40:27,789 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 187 ms. Found 4 Reactive MongoDB repository interfaces.
+2023-03-13 06:40:28,691 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 06:40:28,707 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 06:40:28,708 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 06:40:28,708 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-03-13 06:40:28,910 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 06:40:28,911 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2412 ms
+2023-03-13 06:40:29,097 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-13 06:40:29,404 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-13 06:40:29,500 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 06:40:29,617 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-13 06:40:29,899 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 06:40:30,118 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-13 06:40:30,440 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 06:40:30,463 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 06:40:30,781 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:3306], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-03-13 06:40:31,043 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='640eb74e21403e59bcbf6e72', description='null'}-localhost:3306] Exception in monitor thread while connecting to server localhost:3306
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:279)
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83)
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:107)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:144)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2023-03-13 06:40:31,522 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 06:40:31,940 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 06:40:31,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 06:40:31,970 INFO org.springframework.boot.StartupInfoLogger [main] Started BikesapiApplication in 6.033 seconds (JVM running for 6.72)
+2023-03-13 07:00:11,182 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-03-13 07:00:11,244 INFO org.springframework.boot.StartupInfoLogger [main] Starting BikesapiApplication using Java 15.0.2 on DESKTOP-IV9SFPO with PID 29060 (C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive\target\classes started by Carlos in C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive)
+2023-03-13 07:00:11,245 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-03-13 07:00:12,363 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 07:00:12,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 07:00:12,462 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.EditorialRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:00:12,466 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.RouteRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:00:12,471 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:00:12,473 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 0 JPA repository interfaces.
+2023-03-13 07:00:12,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 07:00:12,520 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-03-13 07:00:12,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 194 ms. Found 3 Reactive MongoDB repository interfaces.
+2023-03-13 07:00:13,646 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 07:00:13,667 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 07:00:13,668 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 07:00:13,669 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-03-13 07:00:13,876 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 07:00:13,877 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2564 ms
+2023-03-13 07:00:14,079 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-13 07:00:14,407 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-13 07:00:14,517 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 07:00:14,639 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-13 07:00:14,872 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 07:00:15,114 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-13 07:00:15,501 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 07:00:15,518 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 07:00:15,905 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:3306], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-03-13 07:00:16,184 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='640ebbef92c9383ff3e58b28', description='null'}-localhost:3306] Exception in monitor thread while connecting to server localhost:3306
+com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632
+	at com.mongodb.internal.connection.ReplyHeader.<init>(ReplyHeader.java:93)
+	at com.mongodb.internal.connection.ReplyHeader.<init>(ReplyHeader.java:56)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:668)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:279)
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83)
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:107)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:144)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:00:16,707 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 07:00:17,177 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 07:00:17,201 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 07:00:17,214 INFO org.springframework.boot.StartupInfoLogger [main] Started BikesapiApplication in 6.587 seconds (JVM running for 7.371)
+2023-03-13 07:01:20,519 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 07:01:20,519 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-03-13 07:01:20,521 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-03-13 07:01:20,557 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-03-13 07:01:38,325 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-03-13 07:01:55,124 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-03-13 07:01:59,861 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-03-13 07:02:10,956 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-03-13 07:02:49,069 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-03-13 07:02:49,130 INFO org.springframework.boot.StartupInfoLogger [main] Starting BikesapiApplication using Java 15.0.2 on DESKTOP-IV9SFPO with PID 31636 (C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive\target\classes started by Carlos in C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive)
+2023-03-13 07:02:49,132 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-03-13 07:02:50,273 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 07:02:50,277 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 07:02:50,350 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.EditorialRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:02:50,354 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.RouteRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:02:50,359 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.UserRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:02:50,360 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 0 JPA repository interfaces.
+2023-03-13 07:02:50,400 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 07:02:50,401 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-03-13 07:02:50,588 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 186 ms. Found 3 Reactive MongoDB repository interfaces.
+2023-03-13 07:02:51,578 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 07:02:51,596 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 07:02:51,597 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 07:02:51,598 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-03-13 07:02:51,776 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 07:02:51,776 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2580 ms
+2023-03-13 07:02:51,970 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-13 07:02:52,298 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-13 07:02:52,383 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 07:02:52,493 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-13 07:02:52,706 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 07:02:52,993 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-13 07:02:53,330 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 07:02:53,347 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 07:02:53,687 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:3306], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-03-13 07:02:53,966 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='640ebc8d9b92b02bc39feb7b', description='null'}-localhost:3306] Exception in monitor thread while connecting to server localhost:3306
+com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632
+	at com.mongodb.internal.connection.ReplyHeader.<init>(ReplyHeader.java:93)
+	at com.mongodb.internal.connection.ReplyHeader.<init>(ReplyHeader.java:56)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:668)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:279)
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83)
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:107)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:144)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:02:54,473 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 07:02:54,901 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 07:02:54,922 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 07:02:54,942 INFO org.springframework.boot.StartupInfoLogger [main] Started BikesapiApplication in 6.41 seconds (JVM running for 7.423)
+2023-03-13 07:02:59,814 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 07:02:59,815 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-03-13 07:02:59,819 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2023-03-13 07:03:00,403 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] No server chosen by com.mongodb.reactivestreams.client.internal.ClientSessionHelper$$Lambda$1169/0x0000000801389e88@43ed11b from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:03:30,423 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-640ebc8d9b92b02bc39feb7b] No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:03:30,944 ERROR com.svalero.bikesapi.controller.EditorialController [http-nio-8080-exec-3] null
+org.springframework.web.context.request.async.AsyncRequestTimeoutException: null
+	at org.springframework.web.context.request.async.TimeoutDeferredResultProcessingInterceptor.handleTimeout(TimeoutDeferredResultProcessingInterceptor.java:42)
+	at org.springframework.web.context.request.async.DeferredResultInterceptorChain.triggerAfterTimeout(DeferredResultInterceptorChain.java:79)
+	at org.springframework.web.context.request.async.WebAsyncManager.lambda$startDeferredResultProcessing$5(WebAsyncManager.java:438)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest.onTimeout(StandardServletAsyncWebRequest.java:151)
+	at org.apache.catalina.core.AsyncListenerWrapper.fireOnTimeout(AsyncListenerWrapper.java:44)
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:135)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:146)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:241)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:03:36,035 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-5] No server chosen by com.mongodb.reactivestreams.client.internal.ClientSessionHelper$$Lambda$1169/0x0000000801389e88@15a6fc2f from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:04:06,042 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-640ebc8d9b92b02bc39feb7b] No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:04:06,923 ERROR com.svalero.bikesapi.controller.EditorialController [http-nio-8080-exec-6] null
+org.springframework.web.context.request.async.AsyncRequestTimeoutException: null
+	at org.springframework.web.context.request.async.TimeoutDeferredResultProcessingInterceptor.handleTimeout(TimeoutDeferredResultProcessingInterceptor.java:42)
+	at org.springframework.web.context.request.async.DeferredResultInterceptorChain.triggerAfterTimeout(DeferredResultInterceptorChain.java:79)
+	at org.springframework.web.context.request.async.WebAsyncManager.lambda$startDeferredResultProcessing$5(WebAsyncManager.java:438)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest.onTimeout(StandardServletAsyncWebRequest.java:151)
+	at org.apache.catalina.core.AsyncListenerWrapper.fireOnTimeout(AsyncListenerWrapper.java:44)
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:135)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:146)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:241)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:05:15,136 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-7] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x800x010x000x000x010x000x000x000x000x000x000x000xd40x070x000x000x000x000x000x00admin.$cmd0x000x000x000x000x000xff0xff0xff0xffY0x010x000x000x08ismaster0x000x010x08helloOk0x000x010x03client0x000x0a0x010x000x000x03driver0x00)0x000x000x000x02name0x000x070x000x000x00nodejs0x000x02version0x000x060x000x000x004.1.40x000x000x03os0x00X0x000x000x000x02type0x000x0b0x000x000x00Windows_NT0x000x02name0x000x060x000x000x00win320x000x02architecture0x000x040x000x000x00x640x000x02version0x000x0b0x000x000x0010.0.190450x000x000x02platform0x00>0x000x000x00Node.js ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:08:11,086 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-6] No server chosen by com.mongodb.reactivestreams.client.internal.ClientSessionHelper$$Lambda$1169/0x0000000801389e88@43ba2204 from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:08:41,089 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-640ebc8d9b92b02bc39feb7b] No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:08:41,922 ERROR com.svalero.bikesapi.controller.EditorialController [http-nio-8080-exec-7] null
+org.springframework.web.context.request.async.AsyncRequestTimeoutException: null
+	at org.springframework.web.context.request.async.TimeoutDeferredResultProcessingInterceptor.handleTimeout(TimeoutDeferredResultProcessingInterceptor.java:42)
+	at org.springframework.web.context.request.async.DeferredResultInterceptorChain.triggerAfterTimeout(DeferredResultInterceptorChain.java:79)
+	at org.springframework.web.context.request.async.WebAsyncManager.lambda$startDeferredResultProcessing$5(WebAsyncManager.java:438)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest.onTimeout(StandardServletAsyncWebRequest.java:151)
+	at org.apache.catalina.core.AsyncListenerWrapper.fireOnTimeout(AsyncListenerWrapper.java:44)
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:135)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:146)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:241)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:10:09,253 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-10] No server chosen by com.mongodb.reactivestreams.client.internal.ClientSessionHelper$$Lambda$1169/0x0000000801389e88@5e342e39 from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:10:39,264 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-640ebc8d9b92b02bc39feb7b] No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]}. Waiting for 30000 ms before timing out
+2023-03-13 07:11:09,273 ERROR com.svalero.bikesapi.controller.EditorialController [http-nio-8080-exec-1] Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]
+org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:95)
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate.potentiallyConvertRuntimeException(ReactiveMongoTemplate.java:2814)
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$translateException$90(ReactiveMongoTemplate.java:2797)
+	at reactor.core.publisher.Flux.lambda$onErrorMap$28(Flux.java:6910)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:94)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onError(MonoFlatMapMany.java:255)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onError(FluxConcatMap.java:263)
+	at reactor.core.publisher.FluxCreate$BaseSink.error(FluxCreate.java:453)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:781)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.error(FluxCreate.java:726)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:230)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.error(FluxCreate.java:182)
+	at reactor.core.publisher.LambdaMonoSubscriber.doError(LambdaMonoSubscriber.java:155)
+	at reactor.core.publisher.LambdaMonoSubscriber.onError(LambdaMonoSubscriber.java:150)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onError(FluxMapFuseable.java:140)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onError(MonoPeekTerminal.java:258)
+	at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:189)
+	at com.mongodb.reactivestreams.client.internal.MongoOperationPublisher.lambda$sinkToCallback$30(MongoOperationPublisher.java:546)
+	at com.mongodb.reactivestreams.client.internal.OperationExecutorImpl.lambda$execute$2(OperationExecutorImpl.java:73)
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:48)
+	at com.mongodb.internal.operation.FindOperation$2.call(FindOperation.java:696)
+	at com.mongodb.internal.operation.OperationHelper$AsyncCallableWithConnectionAndSourceCallback.onResult(OperationHelper.java:749)
+	at com.mongodb.internal.operation.OperationHelper$AsyncCallableWithConnectionAndSourceCallback.onResult(OperationHelper.java:739)
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:48)
+	at com.mongodb.internal.binding.AsyncClusterBinding$1.onResult(AsyncClusterBinding.java:104)
+	at com.mongodb.internal.binding.AsyncClusterBinding$1.onResult(AsyncClusterBinding.java:100)
+	at com.mongodb.internal.connection.BaseCluster$ServerSelectionRequest.onResult(BaseCluster.java:438)
+	at com.mongodb.internal.connection.BaseCluster.handleServerSelectionRequest(BaseCluster.java:314)
+	at com.mongodb.internal.connection.BaseCluster.access$800(BaseCluster.java:62)
+	at com.mongodb.internal.connection.BaseCluster$WaitQueueHandler.run(BaseCluster.java:484)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:3306, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632}}]
+	at com.mongodb.internal.connection.BaseCluster.createTimeoutException(BaseCluster.java:413)
+	... 4 common frames omitted
+2023-03-13 07:48:09,159 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-03-13 07:48:09,211 INFO org.springframework.boot.StartupInfoLogger [main] Starting BikesapiApplication using Java 15.0.2 on DESKTOP-IV9SFPO with PID 4612 (C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive\target\classes started by Carlos in C:\Users\Carlos\Desktop\spring-web-master\bikesapi_reactive)
+2023-03-13 07:48:09,212 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-03-13 07:48:10,239 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 07:48:10,242 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 07:48:10,302 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.EditorialRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:48:10,307 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.svalero.bikesapi.repository.MangaRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-03-13 07:48:10,308 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+2023-03-13 07:48:10,351 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-13 07:48:10,352 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-03-13 07:48:10,505 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 152 ms. Found 2 Reactive MongoDB repository interfaces.
+2023-03-13 07:48:11,398 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 07:48:11,414 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 07:48:11,415 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-13 07:48:11,416 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-03-13 07:48:11,624 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-13 07:48:11,625 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2355 ms
+2023-03-13 07:48:11,817 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-13 07:48:12,115 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-13 07:48:12,199 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 07:48:12,290 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-13 07:48:12,503 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 07:48:12,702 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-13 07:48:13,014 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 07:48:13,029 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 07:48:13,381 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:3306], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-03-13 07:48:13,630 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='640ec72d323c3227493d05eb', description='null'}-localhost:3306] Exception in monitor thread while connecting to server localhost:3306
+com.mongodb.MongoInternalException: Unexpected reply message opCode 775171632
+	at com.mongodb.internal.connection.ReplyHeader.<init>(ReplyHeader.java:93)
+	at com.mongodb.internal.connection.ReplyHeader.<init>(ReplyHeader.java:56)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:668)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:279)
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83)
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:107)
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:144)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-03-13 07:48:14,041 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 07:48:14,482 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 07:48:14,499 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 07:48:14,512 INFO org.springframework.boot.StartupInfoLogger [main] Started BikesapiApplication in 5.813 seconds (JVM running for 6.492)
